@@ -35,15 +35,15 @@ Visual Studio Code
 
 模型基于ResNet-18，将原有2D卷积核替换为3D卷积核，将MRI和PET输入并行的3D ResNet-18网络进行特征提取，将提取出的特征Concat实现融合，最后放入全连接层实现分类，模型结构如下：
 
-![image-20220603152948401](/Library/毕业设计/论文/Alzheimer-master/statistics/model.png)
+![image-20220603152948401](/statistics/model.png)
 
 ## 3.实验结果
 
-<img src="/Library/毕业设计/论文/Alzheimer-master/statistics/Accuracy.png" alt="image-20220603153058188" style="zoom:30%;" />
+<img src="/statistics/Accuracy.png" alt="image-20220603153058188" style="zoom:30%;" />
 
-<img src="/Library/毕业设计/论文/Alzheimer-master/statistics/Loss.png" alt="image-20220603153131521" style="zoom:30%;" />
+<img src="/statistics/Loss.png" alt="image-20220603153131521" style="zoom:30%;" />
 
-<img src="/Library/毕业设计/论文/Alzheimer-master/statistics/ROC_AUC_Curve.png" alt="image-20220603154919072" style="zoom:30%;" />
+<img src="/statistics/ROC_AUC_Curve.png" alt="image-20220603154919072" style="zoom:30%;" />
 
 |  AD:CN  |            |            |            |            |
 | :-----: | :--------: | :--------: | :--------: | :--------: |
