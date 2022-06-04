@@ -5,7 +5,7 @@
 
 14核 Intel(R) Xeon(R) Gold 6330 CPU
 
-24GB的RTX3090 48GB RAM
+24GB RTX3090
 
 PyTorch 1.10.0
 
